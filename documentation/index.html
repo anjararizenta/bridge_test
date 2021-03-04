@@ -1,0 +1,303 @@
+<!---  
+Name: DonateMe 
+Developer name: Avigher
+Company: Avigher Technologies <http://avigher.com>
+Version: 1.0
+last updated: 10-06-2018 
+---->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>DonateMe - Crowdfunding Laravel Script</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		.img-responsive{ max-width:1100px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;DonateMe&rdquo; Documentation by &ldquo;Avigher Technologies&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;DonateMe&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 10/06/2018<br>
+					By: Avigher<br>
+					Email: <a href="mailto:avigher@hotmail.com">avigher@hotmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my script. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/avigher" target="_blank">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#installation">Installation</a></li>
+				<li><a href="#avigher_settings">Settings</a></li>
+                <li><a href="#avigher_category">Category</a></li>
+                
+                 <li><a href="#avigher_pages">Pages</a></li>
+				
+                
+				<li><a href="#avigher_users">Users</a></li>
+                
+                <li><a href="#avigher_blog">Blog</a></li>
+                
+                <li><a href="#avigher_gallery">Gallery</a></li>
+                
+                
+                <li><a href="#avigher_campaigns">Campaigns</a></li>
+                
+                <li><a href="#avigher_donations">Donations</a></li>
+                
+                <li><a href="#avigher_withdrawals">Withdrawals</a></li>
+                
+                <li><a href="#avigher_testimonials">Testimonials</a></li>
+                
+                
+                <li><a href="#avigher_myaccount">My Account</a></li>
+                <li><a href="#avigher_mycomments">My Comments</a></li>
+                
+                <li><a href="#avigher_mycampaigns">My Campaigns</a></li>
+                <li><a href="#avigher_mydonations">My Donations</a></li>
+                 <li><a href="#avigher_withdrawals_settings">Withdrawals Settings</a></li>
+                 <li><a href="#avigher_support">Support</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="installation"><strong>A) Installation</strong> - <a href="#toc">top</a></h3>
+		
+        <strong>Step 1:</strong>
+				 <p>Upload main zip into your hosting & then extract that zip file in same directory.</p>				 
+				 <strong>Step 2:</strong>
+				 <p>Then create a database and import SQL file into it. SQL file available in "SQL" folder</p>
+			  <br/>
+			 
+			<img src="images/1.png" alt="" class="img-responsive" />
+            <strong>Step 3:</strong>
+		    <p>Open <strong>.env</strong> its available in <strong>local </strong> folder & then change hostname, database name & password.</p>
+            <img src="images/2.png" alt="" class="img-responsive" />
+			<p>And Open <strong>database.php</strong> its available in <strong>local/config</strong> folder & then change hostname, database name & password.</p>
+             <img src="images/3.png" alt="" class="img-responsive" />
+             <strong>Step 4:</strong>
+				 <p>Go to Admin panel <b>http://yoursite.com/admin </b></p>
+					<p><b>username: admin </b><br>
+					<b>password: admin</b></p><br/>
+            <img src="images/4.png" alt="" class="img-responsive" />
+        
+        
+		<hr>
+
+		<h3 id="avigher_settings"><strong>B) Settings</strong> - <a href="#toc">top</a></h3>
+
+		<strong>General Settings:</strong>
+				 <p>Then goto here: <b>http://yoursite.com/admin/settings</b></p>
+				 <p>Change site name,logo & favicon, social links and more informations change here.</p>
+                 <br/>
+            <img src="images/5.png" alt="" class="img-responsive" />
+            
+            
+            <strong>Payment Settings:</strong>
+				 <p>Then goto here: <b>http://yoursite.com/admin/payment-settings</b></p>
+				 <p>Change payment option, withdraw option, paypal & stripe settings and more informations change here.</p>
+                 <br/>
+            <img src="images/6.png" alt="" class="img-responsive" />
+
+            
+            
+            
+            <strong>Media Settings:</strong>
+				 <p>Then goto here: <b>http://yoursite.com/admin/media-settings</b></p>
+				 <p>Mp3,Image size & type change here.</p>
+                 <br/>
+            <img src="images/7.png" alt="" class="img-responsive" />
+            
+          
+
+		<hr>
+		
+		<h3 id="avigher_category"><strong>C) Category</strong> - <a href="#toc">top</a></h3>
+		
+		 <p>1. Go to admin panel > category</p>
+				<p>2. Here you can view, add, edit, delete, search category</p><br/>
+				 <img src="images/10.png" alt="" class="img-responsive" />
+                 
+                 
+         <hr>
+        <h3 id="avigher_pages"><strong>D) Pages</strong> - <a href="#toc">top</a></h3>      
+           <p>1. Go to admin panel > pages</p>
+				 <p>2. Here you can view, add, edit, delete, search & dynamic pages</p><br/>
+                 <br/>
+           
+            <img src="images/11.png" alt="" class="img-responsive" />
+            
+		
+		
+		
+		
+		<hr>
+        
+        
+        <h3 id="avigher_users"><strong>E) Users</strong> - <a href="#toc">top</a></h3>
+        
+        <p>1. Go to admin panel > users</p>
+           
+				 <p>2. Here you can view, add, edit, delete, search users</p><br/>
+                 <br/>
+            <img src="images/12.png" alt="" class="img-responsive" />
+            
+        
+            
+         <hr>
+        <h3 id="avigher_blog"><strong>F) Blog</strong> - <a href="#toc">top</a></h3>   
+            
+         <p>1. Go to admin panel > blog</p>
+				 <p>2. Here you can view, add, edit, delete, search & comments blog</p><br/>
+                 <br/>
+           
+            <img src="images/21.png" alt="" class="img-responsive" />
+            
+            
+            
+            
+            <hr>
+        <h3 id="avigher_gallery"><strong>G) Gallery</strong> - <a href="#toc">top</a></h3>   
+            
+         <p>1. Go to admin panel > gallery</p>
+				 <p>2. Here you can view, add, edit, delete, search gallery images</p><br/>
+                 <br/>
+           
+            <img src="images/13.png" alt="" class="img-responsive" />
+            
+            
+            
+            
+            
+            
+            
+         
+            
+      <hr>
+        <h3 id="avigher_campaigns"><strong>H) Campaigns</strong> - <a href="#toc">top</a></h3>       
+           <p>1. Go to admin panel > campaigns</p>
+				 <p>2. Here you can view, search for campaigns</p><br/>
+                 <br/>
+           
+            <img src="images/14.png" alt="" class="img-responsive" />
+            
+            
+        <hr>
+        <h3 id="avigher_donations"><strong>I) Donations</strong> - <a href="#toc">top</a></h3>                
+         <p>1. Go to admin panel > donations</p>
+				 <p>2. Here you can view, search for donations</p><br/>
+                 <br/>
+           
+            <img src="images/15.png" alt="" class="img-responsive" />
+            
+          
+          
+          <hr>
+        <h3 id="avigher_withdrawals"><strong>J) Withdrawals</strong> - <a href="#toc">top</a></h3>   
+            
+			 <p>1. Go to admin panel > withdrawals</p>
+				 <p>2. Here you can view, mark as complete ,search for withdrawals</p><br/>
+                 <br/>
+           
+            <img src="images/16.png" alt="" class="img-responsive" />
+            
+            
+             <hr>
+        <h3 id="avigher_testimonials"><strong>K) Testimonials</strong> - <a href="#toc">top</a></h3>  
+            
+             <p>1. Go to admin panel > testimonials</p>
+				 <p>2. Here you can view, add, edit, delete, search testimonials</p><br/>
+                 <br/>
+           
+            <img src="images/17.png" alt="" class="img-responsive" />
+            
+            <hr>
+        <h3 id="avigher_myaccount"><strong>L) My Account</strong> - <a href="#toc">top</a></h3>  
+            <p>1. Change your profile photo,username,email address,password,phone number,gender,country via my account</p>
+                  
+                 <br/>
+            <img src="images/27.png" alt="" class="img-responsive" /> 
+            
+            
+            
+           <hr>
+        <h3 id="avigher_mycomments"><strong>M) My Comments</strong> - <a href="#toc">top</a></h3>  
+            <p>1. Here you can view, delete your blog post comments</p>
+                  
+                 <br/>
+            <img src="images/28.png" alt="" class="img-responsive" /> 
+            
+            
+            
+              
+           <hr>
+        <h3 id="avigher_mycampaigns"><strong>N) My Campaigns</strong> - <a href="#toc">top</a></h3>  
+            <p>1. Here you can view, edit, make payment, delete your campaigns</p>
+                  
+                 <br/>
+            <img src="images/29.png" alt="" class="img-responsive" /> 
+        
+        
+         <hr>
+        <h3 id="avigher_mydonations"><strong>O) My Donations</strong> - <a href="#toc">top</a></h3> 
+          <p>1. Here you can pending, completed your donations</p>
+				 
+                  
+                 <br/>
+              <img src="images/30.png" alt="" class="img-responsive" />  
+              
+              
+             <hr>
+        <h3 id="avigher_withdrawals_settings"><strong>P) Withdrawals Settings</strong> - <a href="#toc">top</a></h3>  
+               <p>1. Here you can select payment type & payment id your withdrawals settings</p>
+				 
+                  
+                 <br/>
+              <img src="images/31.png" alt="" class="img-responsive" />  
+              
+             
+       
+              
+               
+        
+              
+              
+               <hr>
+        <h3 id="avigher_support"><strong>Q) Support</strong> - <a href="#toc">top</a></h3> 
+        
+        
+		
+		<p>If you need help, please feel free to contact us! All issues, requests and questions can be discussed and answered at our Support Team.</p>
+			<p>For any customization (or) custom jobs contact us through <a href="mailto:avigher@hotmail.com">avigher@hotmail.com</a> (or) skype: <b>avigher</b> (or) <a href="http://avigher.com/contact-us/">http://avigher.com/contact-us/</a></p>
+		
+		<p class="append-bottom alt large"><strong>Avigher Technologies</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
